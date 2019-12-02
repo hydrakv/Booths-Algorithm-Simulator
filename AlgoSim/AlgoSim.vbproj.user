@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>true</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <UseSimulator>false</UseSimulator>
+    <DeviceId>30F105C9-681E-420b-A277-7C086EAD8A4E</DeviceId>
+    <UseEmulator>false</UseEmulator>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <Source>C:\Users\varun\Downloads\also.png</Source>
+    <SmallTileSource>C:\Users\varun\Downloads\also.png</SmallTileSource>
+    <MediumTileSource>C:\Users\varun\Downloads\also.png</MediumTileSource>
+    <WideTileSource>C:\Users\varun\Downloads\also.png</WideTileSource>
+    <LargeTileSource>C:\Users\varun\Downloads\also.png</LargeTileSource>
+    <AppIconSource>C:\Users\varun\Downloads\also.png</AppIconSource>
+    <SplashScreenSource>C:\Users\varun\Downloads\also.png</SplashScreenSource>
+    <PackageLogoSource>C:\Users\varun\Downloads\also.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
